@@ -17,7 +17,7 @@ jobs:
         run: |
           mkdir -p /tmp/prs
           curl --retry 5 --retry-delay 2 --retry-all-errors -fsSL -o /tmp/pr-standards.tar.gz \
-            "https://codeload.github.com/pooriaarab/scripts/tar.gz/refs/tags/pr-standards-v1"
+            "https://codeload.github.com/itsryanarmani/scripts/tar.gz/refs/tags/pr-standards-v1"
           tar -xzf /tmp/pr-standards.tar.gz -C /tmp/prs --strip-components=1
           node /tmp/prs/pr-standards --selfcheck
       - name: Check pull request

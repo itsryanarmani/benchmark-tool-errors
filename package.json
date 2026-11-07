@@ -18,10 +18,10 @@
     "typescript"
   ],
   "homepage": "https://private-repo-337e.com/benchmarks/benchmark-tool-errors",
-  "bugs": "https://github.com/pooriaarab/benchmark-tool-errors/issues",
+  "bugs": "https://github.com/itsryanarmani/benchmark-tool-errors/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pooriaarab/benchmark-tool-errors.git"
+    "url": "git+https://github.com/itsryanarmani/benchmark-tool-errors.git"
   },
   "license": "MIT",
   "author": "Pooria Arab",

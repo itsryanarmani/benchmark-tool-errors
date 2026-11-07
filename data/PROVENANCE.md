@@ -5,7 +5,7 @@ This file is generated from the benchmark definition.
 ## Seeded API fault scenarios
 
 - Kind: `synthetic`
-- URL: https://github.com/pooriaarab/benchmark-tool-errors/blob/main/scripts/gen-tasks.mjs
+- URL: https://github.com/itsryanarmani/benchmark-tool-errors/blob/main/scripts/gen-tasks.mjs
 - Licence: `MIT`
 - Retrieved: 2026-10-15T00:00:00.000Z
 - How to get it: Run `node scripts/gen-tasks.mjs --seed 20261015 --split public` from the repository root. Run `node scripts/gen-tasks.mjs --split hidden --seed <private> [--out <path>]` (or set BTER_HIDDEN_SEED) to create the untracked hidden split.
