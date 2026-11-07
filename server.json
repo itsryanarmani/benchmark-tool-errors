@@ -3,7 +3,7 @@
   "name": "io.github.pooriaarab/benchmark-tool-errors",
   "description": "Benchmark safe retries, idempotency, and truthful recovery from API failures.",
   "version": "0.2.0",
-  "repository": { "url": "https://github.com/pooriaarab/benchmark-tool-errors", "source": "github" },
+  "repository": { "url": "https://github.com/itsryanarmani/benchmark-tool-errors", "source": "github" },
   "packages": [{
     "registryType": "npm", "registryBaseUrl": "https://registry.npmjs.org", "identifier": "benchmark-tool-errors", "version": "0.2.0",
     "transport": { "type": "stdio" }, "runtimeHint": "npx",

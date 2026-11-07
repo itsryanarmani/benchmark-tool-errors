@@ -3,7 +3,7 @@
 > Deterministic AI benchmark for safe retries, idempotency, and truthful recovery from API failures.
 
 Package: https://www.npmjs.com/package/benchmark-tool-errors
-Repository: https://github.com/pooriaarab/benchmark-tool-errors
+Repository: https://github.com/itsryanarmani/benchmark-tool-errors
 Directory: https://private-repo-337e.com/benchmarks/benchmark-tool-errors
 
 ## Scope

@@ -4,7 +4,7 @@ Paper: [10.5281/zenodo.23752436](https://doi.org/10.5281/zenodo.23752436)
 
 [![npm](https://img.shields.io/npm/v/benchmark-tool-errors)](https://www.npmjs.com/package/benchmark-tool-errors) [![downloads](https://img.shields.io/npm/dm/benchmark-tool-errors)](https://www.npmjs.com/package/benchmark-tool-errors) [![license](https://img.shields.io/npm/l/benchmark-tool-errors)](./LICENSE) [![types](https://img.shields.io/badge/TypeScript-types-3178c6)](#sdk)
 
-[AI Benchmark Index](https://private-repo-337e.com/benchmarks/benchmark-tool-errors) · [npm](https://www.npmjs.com/package/benchmark-tool-errors) · [Grading](https://github.com/pooriaarab/benchmark-tool-errors/blob/main/docs/grading.md) · [Fault catalog](https://github.com/pooriaarab/benchmark-tool-errors/blob/main/docs/fault-catalog.md) · [llms.txt](https://github.com/pooriaarab/benchmark-tool-errors/blob/main/llms.txt)
+[AI Benchmark Index](https://private-repo-337e.com/benchmarks/benchmark-tool-errors) · [npm](https://www.npmjs.com/package/benchmark-tool-errors) · [Grading](https://github.com/itsryanarmani/benchmark-tool-errors/blob/main/docs/grading.md) · [Fault catalog](https://github.com/itsryanarmani/benchmark-tool-errors/blob/main/docs/fault-catalog.md) · [llms.txt](https://github.com/itsryanarmani/benchmark-tool-errors/blob/main/llms.txt)
 
 benchmark-tool-errors is an open-source AI agent benchmark for API failure
 recovery. It checks safe retries, idempotency, and truthful final reports.
@@ -42,9 +42,9 @@ counts, component means, and policy-violation counts. The mock needs no key and
 mixes good and bad recovery policies on purpose.
 
 The 40 public episodes come from a committed seeded
-[generator](https://github.com/pooriaarab/benchmark-tool-errors/blob/main/scripts/gen-tasks.mjs).
+[generator](https://github.com/itsryanarmani/benchmark-tool-errors/blob/main/scripts/gen-tasks.mjs).
 Seed `20261015` covers four simulators and six fault schedules. The
-[provenance record](https://github.com/pooriaarab/benchmark-tool-errors/blob/main/data/PROVENANCE.md)
+[provenance record](https://github.com/itsryanarmani/benchmark-tool-errors/blob/main/data/PROVENANCE.md)
 names the MIT licence, regeneration command, contamination risk, and hidden-split plan.
 
 ## How it works
@@ -230,7 +230,7 @@ Version 0.2.0 is alpha. Task schemas and component details can change before
 
 Run `npm run ci:local` before submitting changes. The gate checks all 40 tasks,
 every runtime surface, and ten trivial and blind policies. Report defects through
-the [issue tracker](https://github.com/pooriaarab/benchmark-tool-errors/issues).
+the [issue tracker](https://github.com/itsryanarmani/benchmark-tool-errors/issues).
 
 ## FAQ
 
